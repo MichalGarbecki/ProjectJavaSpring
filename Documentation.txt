@@ -17,3 +17,11 @@ mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8030
 
 Customer
 mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8040
+
+
+Usługa UC01:
+http://localhost:8020/createCredit?CreditName=Kredyt1&ProductName=Kredyt&FirstName=John&Surname=Johnsurname&Pesel=12345678910&Value=1000
+
+Usługa UC02:
+http://localhost:8020/getCredits
+
