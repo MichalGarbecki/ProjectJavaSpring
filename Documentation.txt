@@ -1,0 +1,19 @@
+Komponenty:
+Database
+Credit
+Product
+Customer
+
+Uruchamianie:
+
+Database
+mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8010
+
+Credit
+mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8020
+
+Product
+mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8030
+
+Customer
+mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=8040
